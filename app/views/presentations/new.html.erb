@@ -1,1 +1,4 @@
-<h1>hoi</h1>
+<%= form_for :presentation, url: presentations_path do |f| %>
+  <%= f.file_field :presentation %>
+  <%= f.submit %>
+<% end %>
